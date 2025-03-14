@@ -650,8 +650,7 @@ class RetainWindow:
 
     @staticmethod
     def getUserInfoDownload(start_date, end_date, phone):
-        url = "https://servicestrong-hrb.com/frog/api/frogDownload"
-        # url = "http://127.0.0.1:8000/api/frogDownload"
+        url = "http://127.0.0.1:8000/api/frogDownload"
         request_data = {
             "start_date": start_date,
             "end_date": end_date,
